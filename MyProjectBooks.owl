@@ -1,0 +1,1105 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jakubstawowy/ontologies/2022/8/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jakubstawowy/ontologies/2022/8/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/jakubstawowy/ontologies/2022/8/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Alfabet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bajki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biografie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dramat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fikcja_historyczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gatunek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kraj_pochodzenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kryminał"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Książka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polski"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poradniki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post-Apo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powieść"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powieść_historyczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychologiczne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reportaże_naukowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romanse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rozmiar_fizyczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sci-fi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tomiki_poezji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wydawnictwo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zagraniczny"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Alfabet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Autor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Jest_autorem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pochodzi_z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tytuł"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Czas_akcji"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data_wydania"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Epoka_Literacka"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arabski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cyrylica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Francja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grecki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insignis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Krzyżacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mały_Książe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PWN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Potop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Łaciński"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Świat_Książki"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alfabet"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bajki"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biografie"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dramat"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fantasy"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fikcja_historyczna"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gatunek"/>
+        <Class IRI="#Książka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horror"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kraj_pochodzenia"/>
+        <Class IRI="#Autor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kryminał"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Książka"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polski"/>
+        <Class IRI="#Kraj_pochodzenia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poradniki"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Post-Apo"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powieść"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powieść_historyczna"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychologiczne"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reportaże_naukowe"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romanse"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rozmiar_fizyczny"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sci-fi"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thriller"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomiki_poezji"/>
+        <Class IRI="#Gatunek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wydawnictwo"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zagraniczny"/>
+        <Class IRI="#Kraj_pochodzenia"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#A4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#A5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Agora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zagraniczny"/>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Arabski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Cyrylica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zagraniczny"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_pochodzenia"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Grecki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Polski"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Insignis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fikcja_historyczna"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Powieść_historyczna"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bajki"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantasy"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dramat"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantasy"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Post-Apo"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thriller"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dramat"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantasy"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Post-Apo"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thriller"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dramat"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantasy"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Post-Apo"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thriller"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fikcja_historyczna"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Powieść_historyczna"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#PWN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fikcja_historyczna"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Powieść_historyczna"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_pochodzenia"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fikcja_historyczna"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Książka"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Powieść_historyczna"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_pochodzenia"/>
+        <NamedIndividual IRI="#Rosja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Świat_Książki"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pochodzi_z"/>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pochodzi_z"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+        <NamedIndividual IRI="#Rosja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pochodzi_z"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <NamedIndividual IRI="#Agora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <NamedIndividual IRI="#PWN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Cyrylica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <NamedIndividual IRI="#Insignis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Cyrylica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <NamedIndividual IRI="#Insignis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Cyrylica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <NamedIndividual IRI="#Insignis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <NamedIndividual IRI="#Agora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <NamedIndividual IRI="#Agora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Alfabet"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#Łaciński"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Autor"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Tytuł"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#Potop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <NamedIndividual IRI="#Potop"/>
+        <NamedIndividual IRI="#Agora"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Epoka_Literacka"/>
+        <NamedIndividual IRI="#Antoine_de_Saint-Exupéry"/>
+        <Literal>Współczesność</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Epoka_Literacka"/>
+        <NamedIndividual IRI="#Dmitrij_Głuchowski"/>
+        <Literal>Współczesność</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Epoka_Literacka"/>
+        <NamedIndividual IRI="#Henryk_Sienkiewicz"/>
+        <Literal>Pozytywizm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <Literal>Średniowiecze</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Krzyżacy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">367</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <Literal>Lata 30 XX wieku</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Mały_Książe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <Literal>Alternatywna przyszłość</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Metro_2033"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">278</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <Literal>Alternatywna przyszłość</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Metro_2034"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">302</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <Literal>Alternatywna przyszłość</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Metro_2035"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">267</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <Literal>Renesans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Ogniem_i_mieczem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">487</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_akcji"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <Literal>Renesans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Pan_Wołodyjowski"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">523</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <NamedIndividual IRI="#Potop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <NamedIndividual IRI="#Potop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <NamedIndividual IRI="#Potop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">453</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Alfabet"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Autor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <ObjectProperty IRI="#Autor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Pochodzi_z"/>
+        <ObjectProperty IRI="#Autor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Rozmiar_fizyczny"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Tytuł"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#W_trylogii_z"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Wydawnictwo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Autor"/>
+        <Class IRI="#Autor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Jest_autorem"/>
+        <Class IRI="#Książka"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pochodzi_z"/>
+        <Class IRI="#Kraj_pochodzenia"/>
+    </ObjectPropertyDomain>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Czas_akcji"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Data_wydania"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Epoka_Literacka"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Data_wydania"/>
+        <Class IRI="#Wydawnictwo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <Class IRI="#Książka"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Czas_akcji"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Data_wydania"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Epoka_Literacka"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Stan_trylogiczny"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cena_(w_złotówkach)"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Długość_(w_ilości_stron)"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
